@@ -1,0 +1,59 @@
+{
+  "name": "react-scraper",
+  "version": "0.0.0",
+  "description": "Clientside web scraping utility build with react.",
+  "main": "index.js",
+  "browserify": {
+    "transform": [
+      [
+        "babelify",
+        {
+          "stage": 0
+        }
+      ],
+      "lessify"
+    ]
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MattMcFarland/react-scraper.git"
+  },
+  "devDependencies": {
+    "babelify": "^6.3.0",
+    "browserify": "^11.1.0",
+    "gulp": "^3.9.0",
+    "gulp-less": "^3.0.3",
+    "gulp-rename": "^1.2.2",
+    "gulp-util": "^3.0.6",
+    "gulp-webserver": "^0.9.1",
+    "react-styleguide-generator": "^1.1.5",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "dependencies": {
+    "lessify": "^1.0.1",
+    "react": "^0.13.3"
+  },
+  "keywords": [
+    "scraper",
+    "web-scraper",
+    "async",
+    "http",
+    "json",
+    "crawler",
+    "parser",
+    "react",
+    "react-component",
+    "es6",
+    "es7"
+  ],
+  "author": "MattMcFarland",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/MattMcFarland/react-scraper/issues"
+  },
+  "homepage": "https://github.com/MattMcFarland/react-scraper"
+}
